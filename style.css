@@ -1,0 +1,31 @@
+.ele
+{
+    list-style-type: none;
+    margin: 2px;
+    padding: 20px 30px;
+    width: 200px;
+    background-color:whitesmoke;
+    height: 200vh;
+    overflow: auto;
+  }
+  li a
+  {
+    display: block;
+    color:black;
+    padding: 20px 25px;
+    text-decoration: none;
+  }
+  .active {
+    background-color:azure;
+    border-color:rosybrown;
+    border-style: groove;
+    color:black;
+  }
+  /* Change the link color on hover */
+  li a:hover
+  {
+    background-color:wheat;
+    color: white;
+  }
+    
+    
