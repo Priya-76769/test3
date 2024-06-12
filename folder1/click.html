@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click button</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="block">
+        <button onclick="togglemargin()">click</button>
+        <div id ="output">output</div>
+    </div>
+    <script>
+    let clickcount=0;
+const messages = ["10 clicks remaining" , "9 clicks remaining", "8 clicks remaining", "7 clicks remaining ", "6 clicks remaining",
+ "5 clicks remaining",
+"4 clicks remaining","3 clicks remaining","2 clicks remaining","1 click remaining"];
+function togglemargin()
+{
+    if (clickcount < messages.length)
+ {
+    console.log(messages[clickcount]);
+    clickcount++;
+ }
+else
+{
+console.log("no more clicks remaining");
+}
+}
+    </script>
+</body>
+</html>
